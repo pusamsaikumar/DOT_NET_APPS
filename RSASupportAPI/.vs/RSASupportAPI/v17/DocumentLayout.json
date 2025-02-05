@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\csharpprojects\\RSASupportAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\rsasupportdal\\clientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\rsasupportdal\\clientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\rsasupportbll\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\rsasupportbll\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\controllers\\rsasupportapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\controllers\\rsasupportapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\rsasupportbll\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\rsasupportbll\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\rsasupportdal\\iclientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\rsasupportdal\\iclientrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\s3buckethelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\s3buckethelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\allshoppersgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\allshoppersgroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veritra\\Downloads\\rsasupportapiauth-firebase-adminsdk-fbsvc-da1701702d.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\appconfigurations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\appconfigurations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\sqlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\sqlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\createshoppermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\createshoppermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\csharpprojects\\createCoupon\\createCoupon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\csharpprojects\\createCoupon\\createCoupon\\Models\\Dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\csharpprojects\\createCoupon\\createCoupon\\Controllers\\CouponController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\csharpprojects\\createCoupon\\createCoupon\\Models\\Coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\findshoppers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\findshoppers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\userrewardcoupons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\userrewardcoupons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Veritra\\.nuget\\packages\\epplus\\7.5.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\createshoppergroupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\createshoppergroupmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\models\\predifinedshoppergroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\models\\predifinedshoppergroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|d:\\csharpprojects\\rsasupportapi\\rsasupportapi\\rsasupportapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32336B80-B7AA-4C01-A7DE-B04945F6CD92}|RSASupportAPI\\RSASupportAPI.csproj|solutionrelative:rsasupportapi\\rsasupportapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1295457661:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{84b8a1b5-38c4-49b3-8142-8da39653acf2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\Coupon.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\Coupon.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\Coupon.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\Coupon.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAAAJEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T15:50:16.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RSASupportAPIController.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Controllers\\RSASupportAPIController.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Controllers\\RSASupportAPIController.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Controllers\\RSASupportAPIController.cs",
+              "RelativeToolTip": "RSASupportAPI\\Controllers\\RSASupportAPIController.cs",
+              "ViewState": "AgIAAE8IAAAAAAAAAAAIwJYIAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:58:09.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IClientRepo.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportDAL\\IClientRepo.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\RSASupportDAL\\IClientRepo.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportDAL\\IClientRepo.cs",
+              "RelativeToolTip": "RSASupportAPI\\RSASupportDAL\\IClientRepo.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAlwFgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:05:22.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientRepo.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportDAL\\ClientRepo.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\RSASupportDAL\\ClientRepo.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportDAL\\ClientRepo.cs",
+              "RelativeToolTip": "RSASupportAPI\\RSASupportDAL\\ClientRepo.cs",
+              "ViewState": "AgIAAFERAAAAAAAAAADwv2MRAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:14:48.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportBLL\\IClientService.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\RSASupportBLL\\IClientService.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportBLL\\IClientService.cs",
+              "RelativeToolTip": "RSASupportAPI\\RSASupportBLL\\IClientService.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAA5wFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:58:08.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportBLL\\ClientService.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\RSASupportBLL\\ClientService.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportBLL\\ClientService.cs",
+              "RelativeToolTip": "RSASupportAPI\\RSASupportBLL\\ClientService.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAIwDYBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:58:31.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "RSASupportAPI\\appsettings.json",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\appsettings.json",
+              "RelativeToolTip": "RSASupportAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-16T16:57:09.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AllShoppersGroups.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\AllShoppersGroups.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\AllShoppersGroups.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\AllShoppersGroups.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\AllShoppersGroups.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:58:26.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "S3BucketHelpers.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\S3BucketHelpers.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\S3BucketHelpers.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\S3BucketHelpers.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\S3BucketHelpers.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAcwGsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T16:03:24.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "rsasupportapiauth-firebase-adminsdk-fbsvc-da1701702d.json",
+              "DocumentMoniker": "C:\\Users\\Veritra\\Downloads\\rsasupportapiauth-firebase-adminsdk-fbsvc-da1701702d.json",
+              "ToolTip": "C:\\Users\\Veritra\\Downloads\\rsasupportapiauth-firebase-adminsdk-fbsvc-da1701702d.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T09:18:45.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppConfigurations.json",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\AppConfigurations.json",
+              "RelativeDocumentMoniker": "RSASupportAPI\\AppConfigurations.json",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\AppConfigurations.json",
+              "RelativeToolTip": "RSASupportAPI\\AppConfigurations.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-20T10:15:37.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateShopperModel.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\CreateShopperModel.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\CreateShopperModel.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\CreateShopperModel.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\CreateShopperModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:56:44.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SqlHelpers.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\SqlHelpers.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\SqlHelpers.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\SqlHelpers.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\SqlHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:48:52.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\csharpprojects\\createCoupon\\createCoupon\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\createCoupon\\createCoupon\\appsettings.json",
+              "ToolTip": "D:\\csharpprojects\\createCoupon\\createCoupon\\appsettings.json",
+              "RelativeToolTip": "..\\createCoupon\\createCoupon\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvwkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-10T17:14:23.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CouponController.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\createCoupon\\createCoupon\\Controllers\\CouponController.cs",
+              "RelativeDocumentMoniker": "..\\createCoupon\\createCoupon\\Controllers\\CouponController.cs",
+              "ToolTip": "D:\\csharpprojects\\createCoupon\\createCoupon\\Controllers\\CouponController.cs",
+              "RelativeToolTip": "..\\createCoupon\\createCoupon\\Controllers\\CouponController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvywAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:11:28.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\createCoupon\\createCoupon\\Models\\Coupon.cs",
+              "RelativeDocumentMoniker": "..\\createCoupon\\createCoupon\\Models\\Coupon.cs",
+              "ToolTip": "D:\\csharpprojects\\createCoupon\\createCoupon\\Models\\Coupon.cs",
+              "RelativeToolTip": "..\\createCoupon\\createCoupon\\Models\\Coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:12:29.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dal.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\createCoupon\\createCoupon\\Models\\Dal.cs",
+              "RelativeDocumentMoniker": "..\\createCoupon\\createCoupon\\Models\\Dal.cs",
+              "ToolTip": "D:\\csharpprojects\\createCoupon\\createCoupon\\Models\\Dal.cs",
+              "RelativeToolTip": "..\\createCoupon\\createCoupon\\Models\\Dal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T17:13:26.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FindShoppers.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\FindShoppers.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\FindShoppers.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\FindShoppers.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\FindShoppers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:44:19.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserRewardCoupons.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\UserRewardCoupons.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\UserRewardCoupons.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\UserRewardCoupons.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\UserRewardCoupons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:11:23.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FileModel.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\FileModel.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\FileModel.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\FileModel.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\FileModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:11:41.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\Helpers.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\Helpers.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\Helpers.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\Helpers.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAgwLUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T12:35:54.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\Veritra\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "ToolTip": "C:\\Users\\Veritra\\.nuget\\packages\\epplus\\7.5.2\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-03T09:32:57.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateShopperGroupModel.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\CreateShopperGroupModel.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\CreateShopperGroupModel.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\CreateShopperGroupModel.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\CreateShopperGroupModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T09:56:48.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PreDifinedShopperGroups.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\PreDifinedShopperGroups.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\PreDifinedShopperGroups.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\PreDifinedShopperGroups.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\PreDifinedShopperGroups.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:44:32.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "RSASupportAPI\\Models\\UserDetails.cs",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\Models\\UserDetails.cs",
+              "RelativeToolTip": "RSASupportAPI\\Models\\UserDetails.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA+wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T13:44:38.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RSASupportAPI.csproj",
+              "DocumentMoniker": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportAPI.csproj",
+              "RelativeDocumentMoniker": "RSASupportAPI\\RSASupportAPI.csproj",
+              "ToolTip": "D:\\csharpprojects\\RSASupportAPI\\RSASupportAPI\\RSASupportAPI.csproj",
+              "RelativeToolTip": "RSASupportAPI\\RSASupportAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-13T11:50:44.867Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 17,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

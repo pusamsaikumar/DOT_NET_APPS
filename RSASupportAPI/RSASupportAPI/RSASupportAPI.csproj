@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<AWSProjectType>Lambda</AWSProjectType>
+	<Platforms>AnyCPU;x64;ARM32;ARM64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="9.0.1" />
+    <PackageReference Include="Amazon.Lambda.AspNetCoreServer.Hosting" Version="1.7.1" />
+    <PackageReference Include="Amazon.S3" Version="0.33.0" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.300" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.402.12" />
+    <PackageReference Include="Bytescout.BarCode" Version="7.6.3.1256" />
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <PackageReference Include="ClosedXML.Report" Version="0.2.10" />
+    <PackageReference Include="EPPlus" Version="7.5.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appconfigurations_1json__JsonSchema="https://appliedengdesign.github.io/cnccodes-json-schema/draft/2022-07/schema" /></VisualStudio></ProjectExtensions>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GNdhTYqW02Q7FK+9813gNnBCFfVg1Q3V0qEil5EspqA=",
+  "Source": "RSASupportAPI",
+  "BasePath": "_content/RSASupportAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

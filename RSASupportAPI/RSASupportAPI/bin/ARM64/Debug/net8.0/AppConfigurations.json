@@ -1,0 +1,57 @@
+[
+  {
+    "ClinetName": "Veritra RSA",
+    "DBInstanceName": "veritrarsadevdb.clkbmvhusrdv.us-east-1.rds.amazonaws.com",
+    "DBName": "RSA_GroceryDEV",
+    "UserName": "Veritragrocerydblogin",
+    //"Password": "sai123"
+    // "Password": "c2FpMTIz"
+    "Password": "otTL5kd0buqb7erEuTqX"
+  },
+  {
+    "ClinetName": "SAI KUMAR",
+    "DBInstanceName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DBName": "RSASupportDB01",
+    "UserName": "sa",
+    //"Password": "sai123"
+    // "Password": "c2FpMTIz"
+    "Password": "xJB1AVWvQChohGnVpsh4VA=="
+  },
+  {
+    "ClinetName": "RSA TEST02",
+    "DBInstanceName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DBName": "RSASupportDB02",
+    "UserName": "sa",
+    "Password": "xJB1AVWvQChohGnVpsh4VA=="
+  },
+  {
+    "ClinetName": "RSA TEST03",
+    "DBInstanceName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DBName": "RSASupportDB03",
+    "UserName": "sa",
+    //"Password": "sai123"
+    //"Password": "c2FpMTIz"
+    "Password": "xJB1AVWvQChohGnVpsh4VA=="
+  },
+  {
+
+    "ClinetName": "RSA TEST04",
+    "DBInstanceName": "rsaecrsapisql2022.cbo8ouwquvxf.ap-south-1.rds.amazonaws.com",
+    "DBName": "RSASupportAPI04",
+    "UserName": "saikumar",
+
+    // "Password": "saikumarP123"
+    //"Password": "c2Fpa3VtYXJQMTIz"
+    "Password": "JOzvfBDWRbcBMDk9QBDiyg=="
+  },
+  {
+
+    "ClinetName": "RSA TEST05",
+    "DBInstanceName": "rsasupportapi.cbo8ouwquvxf.ap-south-1.rds.amazonaws.com",
+    "DBName": "RSASupportAPI05",
+    "UserName": "pusam",
+    //"Password": "saikumarP123"
+    //"Password": "c2Fpa3VtYXJQMTIz"
+    "Password": "JOzvfBDWRbcBMDk9QBDiyg=="
+  }
+]

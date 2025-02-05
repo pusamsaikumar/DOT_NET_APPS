@@ -1,0 +1,1799 @@
+[
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "AddGroups",
+    "RelativePath": "api/RSASupportAPI/AddGroups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "clubId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "AddGroupWithSearchDetails",
+    "RelativePath": "api/RSASupportAPI/AddGroupWithSearchDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetAllShoppersGroups",
+    "RelativePath": "api/RSASupportAPI/AllShopperGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "CreateBasketCoupon",
+    "RelativePath": "api/RSASupportAPI/CreateBasketCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "RSASupportAPI.Models.SaveBasketModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "CreateMembershipUser",
+    "RelativePath": "api/RSASupportAPI/CreateMembershipUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "aspnetMembershipCreateUser",
+        "Type": "RSASupportAPI.Models.AspnetMembershipCreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "CreateShopper",
+    "RelativePath": "api/RSASupportAPI/CreateShopper",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "RSASupportAPI.Models.CreateShopperModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "CreateShopperGroups",
+    "RelativePath": "api/RSASupportAPI/CreateShopperGroups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SIGNFROMDATE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SIGNUPTODATE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FIRSTNAME",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LASTNAME",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "USERNAME",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ZIPCODE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "STOREID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MEMBERNUMBER",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "SaveUPCPromotion",
+    "RelativePath": "api/RSASupportAPI/CreateUPCCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "RSASupportAPI.Models.SaveUPCPromotionsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/RSASupportAPI/DeleteUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "deleteUserRequest",
+        "Type": "RSASupportAPI.Models.DeleteUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "DeleteUserGroups",
+    "RelativePath": "api/RSASupportAPI/DeleteUserGroups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "clubId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "DownloadAdvancedShoppers",
+    "RelativePath": "api/RSASupportAPI/DownloadAdvancedShoppers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionFrom",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionTo",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minSpend",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxSpend",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "clubId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minBasketCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxBasketCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minReedemCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxRedeemCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isCreatedGroup",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "DownloadUserShopperReport",
+    "RelativePath": "api/RSASupportAPI/DownloadShopperReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "DownloadTopShoppers",
+    "RelativePath": "api/RSASupportAPI/DownloadTopShoppers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "noOfRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderByDirection",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "FindCoupons",
+    "RelativePath": "api/RSASupportAPI/FindCoupons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "newsCategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "valid",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "expires",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetFindShopperDetails",
+    "RelativePath": "api/RSASupportAPI/FindShopper",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobileNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "zipcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientStoreId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpFromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpToDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetAdvancedSearchShoppers",
+    "RelativePath": "api/RSASupportAPI/GetAdvancedSearchShoppers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionFrom",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionTo",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minSpend",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxSpend",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "clubId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minBasketCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxBasketCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minReedemCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxRedeemCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isCreatedGroup",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetAllTimeProducts",
+    "RelativePath": "api/RSASupportAPI/GetAllTimeProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetAvailableUserGroups",
+    "RelativePath": "api/RSASupportAPI/GetAvailableUserGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetClientData",
+    "RelativePath": "api/RSASupportAPI/GetClientData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "selectQuery",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetClients",
+    "RelativePath": "api/RSASupportAPI/GetClients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "RSASupportAPI.Models.ClinetResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetClientStores",
+    "RelativePath": "api/RSASupportAPI/GetClientStores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetFilteredUserDetails",
+    "RelativePath": "api/RSASupportAPI/GetFilteredUserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortDirection",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetFindMemberDetails",
+    "RelativePath": "api/RSASupportAPI/GetFindMemberDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rewardTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetFindShopperByUPCs",
+    "RelativePath": "api/RSASupportAPI/GetFindShopperByUPCs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UPC",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NoOfCoupons",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "FromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ToDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetFindShopperDetailsById",
+    "RelativePath": "api/RSASupportAPI/GetFindShopperDetailsById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetGroupAnalysisTimeLine",
+    "RelativePath": "api/RSASupportAPI/GetGroupAnalysisTimeLine",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinetName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetLMReward",
+    "RelativePath": "api/RSASupportAPI/GetLMReward",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetLMRewardsForUserWithMemberNumber",
+    "RelativePath": "api/RSASupportAPI/GetLMRewardsWithMemberNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetMatchedRewardsForUser",
+    "RelativePath": "api/RSASupportAPI/GetMatchedRewardsForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetMatchedRewardsForUserWithMemberNumber",
+    "RelativePath": "api/RSASupportAPI/GetMatchedRewardsForUserWithMemberNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetMyLMRewardsForUser",
+    "RelativePath": "api/RSASupportAPI/GetMyLMRewardsForUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lmRewardId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetNewsCategories",
+    "RelativePath": "api/RSASupportAPI/GetNewsCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetPaginate",
+    "RelativePath": "api/RSASupportAPI/GetPaginate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobileNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "zipcode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientStoreId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpFromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpToDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isAscending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetPaginationData",
+    "RelativePath": "api/RSASupportAPI/GetPaginationData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "barcodeValue",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "zipCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientStoreId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "firstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpFromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "signUpToDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortColumn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sortDirection",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetProductCategories",
+    "RelativePath": "api/RSASupportAPI/GetProductCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetProductDetailsupc",
+    "RelativePath": "api/RSASupportAPI/GetProductDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productCategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "isMajorDepartment",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetRewardTypes",
+    "RelativePath": "api/RSASupportAPI/GetRewardTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetAllRoles",
+    "RelativePath": "api/RSASupportAPI/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetSearchAndCountDetails",
+    "RelativePath": "api/RSASupportAPI/GetSearchAndCountDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetSearchAndCreateGroup",
+    "RelativePath": "api/RSASupportAPI/GetSearchAndCreateGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetShoppersAdvancedSearch",
+    "RelativePath": "api/RSASupportAPI/GetShoppersAdvancedSearch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "memberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionFrom",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "transactionTo",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "minSpend",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxSpend",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "clubId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minBasketCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxBasketCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minReedemCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxRedeemCount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "isCreatedGroup",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetTopProducts",
+    "RelativePath": "api/RSASupportAPI/GetTopProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "GroupId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NoOfDays",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetTopShoppers",
+    "RelativePath": "api/RSASupportAPI/GetTopShoppers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "noOfRecords",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderByDirection",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "toDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "departmentId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserBasketTransactions",
+    "RelativePath": "api/RSASupportAPI/GetUserBasketTransactions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserClipsAndRedemptionDates",
+    "RelativePath": "api/RSASupportAPI/GetUserClipsAndRedemptionDates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserGroups",
+    "RelativePath": "api/RSASupportAPI/GetUserGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserHistory",
+    "RelativePath": "api/RSASupportAPI/GetUserHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserRecentPurchasedProducts",
+    "RelativePath": "api/RSASupportAPI/GetUserRecentPurchasedProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Transaction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserRewardCoupons",
+    "RelativePath": "api/RSASupportAPI/GetUserRewardCoupons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "GetUserTypes",
+    "RelativePath": "api/RSASupportAPI/GetUserTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "PreDefinedShopperGroupByZipcodesList",
+    "RelativePath": "api/RSASupportAPI/PreDefinedShopperGroupByZipcodesList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "RSASupportAPI.Models.PreDefinedShopperGroupByZipcodes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "PreDefinedShopperGroupsByLastShoppedDate",
+    "RelativePath": "api/RSASupportAPI/PreDefinedShopperGroupsByLastShoppedDate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "RSASupportAPI.Models.PreDefinedShopperGroupsByLastShopped",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "PreDefinedShopperGroupsByUPCList",
+    "RelativePath": "api/RSASupportAPI/PreDefinedShopperGroupsByUPCList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "RSASupportAPI.Models.PreDefinedShopperGroupsByUPCLists",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "SaveUserPoints",
+    "RelativePath": "api/RSASupportAPI/SaveUserPoints",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MemberNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UPC1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Qty1",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "UPC2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Qty2",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TransactionAmount",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "RewardTypeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "UpdateUserDetails",
+    "RelativePath": "api/RSASupportAPI/UpdateUserDetails",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userDetailId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "findShopper",
+        "Type": "RSASupportAPI.Models.FindShopper",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "UploadExcelFile",
+    "RelativePath": "api/RSASupportAPI/UploadExcelFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RSASupportAPI.Models.UploadResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "UploadShoppers",
+    "RelativePath": "api/RSASupportAPI/UploadShoppers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "UploadShoppersToGroups",
+    "RelativePath": "api/RSASupportAPI/UploadShoppersToGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "UploadUPCTemplate",
+    "RelativePath": "api/RSASupportAPI/UploadUPCTempalate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RSASupportAPI.Controllers.RSASupportAPIController",
+    "Method": "UserPurchasedCoupons",
+    "RelativePath": "api/RSASupportAPI/UserPurchasedCoupon",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Transaction",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "clientName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

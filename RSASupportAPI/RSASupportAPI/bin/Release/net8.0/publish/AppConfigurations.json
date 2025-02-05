@@ -1,0 +1,42 @@
+[
+  {
+    "ClinetName": "sai kumar",
+    "DBInstanceName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DBName": "RSASupportDB01",
+    "UserName": "sa",
+    "Password": "sai123"
+  },
+  {
+    "ClinetName": "RSA TEST02",
+    "DBInstanceName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DBName": "RSASupportDB02",
+    "UserName": "sa",
+    "Password": "sai123"
+  },
+  {
+    "ClinetName": "RSA TEST03",
+    "DBInstanceName": "DESKTOP-1JNARAI\\SAISQLSERVER",
+    "DBName": "RSASupportDB03",
+    "UserName": "sa",
+    "Password": "sai123"
+  },
+  {
+    
+    "ClinetName": "RSA TEST04",
+    "DBInstanceName": "rsaecrsapisql2022.cbo8ouwquvxf.ap-south-1.rds.amazonaws.com",
+    "DBName": "RSASupportAPI04",
+    "UserName": "saikumar",
+    "Password": "saikumarP123"
+  },
+  {
+   
+    "ClinetName": "RSA TEST05",
+    "DBInstanceName": "rsasupportapi.cbo8ouwquvxf.ap-south-1.rds.amazonaws.com",
+    "DBName": "RSASupportAPI05",
+    "UserName": "pusam",
+    "Password": "saikumarP123"
+  }
+
+
+
+]
